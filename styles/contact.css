@@ -1,0 +1,113 @@
+
+.contact, .inquiry, .feedback {
+    width: 100%;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container, .feedback-container {
+    max-width: 900px;
+    width: 100%;
+    padding: 40px;
+}
+
+.inquiry-container{
+    max-width: 900px;
+    width: 100%;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-left {
+    flex: 1;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.contact-left p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contact-left p i {
+    color: #ff6600;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.contact-right {
+    flex: 1;
+    text-align: right;
+}
+
+.contact-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.inquiry-container, .feedback-container {
+    text-align: left;
+}
+
+.contact h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.inquiry h4, .feedback h4 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact p, .inquiry p, .feedback p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.inquiry p i, .feedback p i {
+    color: #ff6600;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .contact-left {
+        padding-right: 0;
+    }
+
+    .contact-left p {
+        justify-content: flex-start;
+    }
+
+    .contact-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
