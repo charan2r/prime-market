@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Website Frontend
+# 🛍️ E-Commerce Website 
 
 A fully responsive **E-Commerce Website** developed using **HTML**, **CSS**, and **JavaScript**. This project demonstrates clean UI/UX design principles, dynamic content rendering, and client-side interactivity, all of which are suitable for a modern online store.
 
@@ -38,5 +38,4 @@ A fully responsive **E-Commerce Website** developed using **HTML**, **CSS**, and
 git clone https://github.com/your-username/prime-market.git
 cd prime-market
 
-
-
+Just double-click home.html to view.
